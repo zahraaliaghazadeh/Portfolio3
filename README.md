@@ -16,9 +16,7 @@ This application has used features such as parallax effect, grid system, shadow 
 
 
 ## Screenshots
-![Screenshot](assets/images/screenshot1.png)
-![Screenshot](assets/images/screenshot2.png)
-![Screenshot](assets/images/screenshot3.png)
+
 
 
 
