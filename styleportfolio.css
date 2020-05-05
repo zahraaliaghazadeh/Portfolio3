@@ -26,6 +26,16 @@ body{
     font-size: 1.5rem;
 }
 
-.card .card-image .card-title {
-    color: hotpink;
+
+
+.card-title{
+    width: 100%;
+    padding: 0;
+    background: #263238;
+    color:white;
+    top:0;
+}
+
+.card .card-image .card-title{
+    bottom: unset;
 }
