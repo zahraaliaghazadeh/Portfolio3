@@ -1,4 +1,4 @@
-# [Portfolio](https://zahraaliaghazadeh.github.io/Portfolio3/contact.html)
+# [Portfolio](https://zahraaliaghazadeh.github.io/Portfolio3/)
 > This portfolio application has a simple looks to it with three tabs, one for about me that includes a profile picture , one for portfolio that contains my projects with their deployed links and a third tab for contact me. 
 
 ## Table of contents
@@ -29,7 +29,7 @@ This application has used features such as parallax effect, grid system, shadow 
 
 
 ## Setup
-To view this portfolio you can click : [here](http://www.unsplash.com/)
+To view this portfolio you can click : [here](https://zahraaliaghazadeh.github.io/Portfolio3/)
 
 
 
