@@ -1,5 +1,5 @@
 # [Portfolio](https://zahraaliaghazadeh.github.io/Portfolio3/)
-> This portfolio application has a simple looks to it with three tabs, one for about me that includes a profile picture , one for portfolio that contains my projects with their deployed links and a third tab for contact me. 
+> This portfolio application is a simple portfolio , with about, skills and some projects.
 
 ## Table of contents
 * [General-info](#General-info)
