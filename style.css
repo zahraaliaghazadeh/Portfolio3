@@ -2,18 +2,18 @@
     background-color:#263238;
 }
 
-#profilephoto{
+/* #profilephoto{ */
     /* height: 600px;
     margin: 30px; */
-    width: 100%;
+    /* width: 100%; */
 
     
-}
+/* } */
 
-body{
+/* body{ */
     /* background-color:#000000 ; */
     /* background-image: url(https://images.unsplash.com/photo-1541450711770-551bbd9ab9d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60); */
-}
+/* } */
 
 .page-footer{
     background-color:#263238;
@@ -32,19 +32,30 @@ body{
 .brand-logo{
     position: absolute;
     font-size: 1.5rem;
+    margin-left: 8px;
+    margin-top: 10px;
+    color:white;
 
 }
 
+.logoIcon{
+    width:60px;
+
+}
+
+.socialmedia{
+    color: white;
+}
 
 .navbar{
     background-color:#263238;
 }
 
 
-body{
+/* body{ */
     /* background-color:#000000 ; */
     /* background-image: url(https://images.unsplash.com/photo-1541450711770-551bbd9ab9d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60); */
-}
+/* } */
 
 .page-footer{
     background-color:#263238;
@@ -60,8 +71,9 @@ body{
 }
 
 .brand-logo{
-    position: absolute;
+    position: fixed ;
     font-size: 1.5rem;
+   
 }
 
 
@@ -87,6 +99,158 @@ body{
     
 }
 
-.aboutME{
+.aboutMe{
     font-size: 18px;
 }
+
+/* navbar hamburger menu */
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  a {
+    color: #000;
+  }
+  
+  /* header */
+  
+  .header {
+    /* background-color: #fff; */
+    background-color: #263238;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    color:white;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #263238;
+    color:white;
+
+    /* background-color: #fff; */
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    /* background-color: #f4f4f4; */
+    background-color: #706c6c;
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* menu */
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: rgb(38, 186, 206);
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: rgb(38, 186, 206);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
+
+  /* end of hamburger menu navbar */
+  
