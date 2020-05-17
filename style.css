@@ -22,9 +22,11 @@
 
 }
 
-.logoIcon{
+#logoIcon{
     width:60px;
-    margin: 5px;
+    /* margin: 5px; */
+    /* margin-left: 15px; */
+    margin: 5px 5px 5px 15px;
 
 }
 
@@ -43,6 +45,8 @@
 .logo{
     height: 60px;
     width: 60px;
+  
+
 }
 
 .footertext{
@@ -55,7 +59,10 @@
    
 }
 
-
+/* .navItems{
+  display: flex;
+  align-items: center;
+} */
 
 
 
@@ -102,7 +109,7 @@
 body {
     margin: 0;
     font-family: Helvetica, sans-serif;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
   }
   
   a {
@@ -159,6 +166,8 @@ body {
   .header .menu {
     clear: both;
     max-height: 0;
+    /* display:flex;
+    align-items: center; */
     transition: max-height .2s ease-out;
   }
   
