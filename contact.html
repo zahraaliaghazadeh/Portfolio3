@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zahra-AliAghazadeh</title>
+  <!-- materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- link css -->
+  <link rel="stylesheet" href="stylecontact.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav>
+    <div class="nav-wrapper navbar">
+      <img class="logo" src="assets/images/logo1.png" alt="">
+      <a href="#" class="brand-logo">Zahra Ali Aghazadeh</a>
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <!-- <li><a href="contact.html">Contact Me</a></li> -->
+        <li><a target="_blank" href="https://docs.google.com/document/d/1cgDTwicvcztvAVgVlX6yvi9T6YbSKnNCwKftGa5veZY/edit?usp=sharing">Resume</a></li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Start Parallax  -->
+  <div class="parallax-container">
+    <div class="parallax"><img src="assets/images/backgroundimage5.jpg" class="responsive-img" alt="Parallax"></div>
+  </div>
+  <div class="section white">
+    <form method="post" name="myemailform" action="form-to-email.php">
+
+
+      <div class="row container">
+        <h4 class="light center-align">Contact Me</h4>
+        <div class="row center-align">
+          <div class="form-wrapper center-align">
+
+            <!-- fisrt name and phone -->
+            <div class="row">
+              <form class="col s12 m6 l6">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <!-- <i class="material-icons prefix">account_circle</i> -->
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Name</label>
+                  </div>
+                  <!-- <div class="input-field col s6">
+                  <i class="material-icons prefix">phone</i>
+                  <input id="icon_telephone" type="tel" class="validate">
+                  <label for="icon_telephone">Telephone</label>
+                </div> -->
+                </div>
+              </form>
+            </div>
+            <!-- email input -->
+            <div class="row">
+              <form class="col s12 m6 l6">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <!-- text area -->
+            <div class="row">
+              <form class="col s12 m6 l6">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Textarea</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div class="card-action">
+              <button class="btn blue"> Submit </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="assets/images/backgroundimage5.jpg" class="responsive-img" alt="Parallax"></div>
+  </div>
+  <!-- End Parallax  -->
+
+
+  <!-- link JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Start Parallax Javascript -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.parallax').parallax();
+    });
+  </script>
+  <!-- EndParallax Javascript -->
+
+
+
+
+
+  <footer class="page-footer">
+    <div class="row">
+      <a class="footertext" href="https://github.com/zahraaliaghazadeh">Git Hub</a>
+    </div>
+
+    <div class="row">
+      <a class="footertext" href="www.linkedin.com/in/yalda-aghazade">LinkedIn</a>
+    </div>
+    <div class="footer-copyright">
+      <div class="col l6 m6 s12 footertext">&copy; 2020 Copyright <a class="white-text text-lighten-4" href=""
+          target="_blank">Zahra Ali Aghazadeh</a></div>
+
+      <div class="footertext" class="col l6 m6 s12 footertext"><a class="grey-text text-lighten-4 right" href=""
+          target="_blank">Designed By Yalda</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- link js -->
+  <script src="script.js"></script>
+</body>
+
+</html>
