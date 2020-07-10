@@ -262,7 +262,7 @@ body {
 /* to fix the size of applications portion cards , is not working */ 
   .grid{
     /* height: 500px; */
-    min-height: 500px !important;
+    min-height: 600px !important;
   }
 
   .card{
