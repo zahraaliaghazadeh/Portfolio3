@@ -45,6 +45,8 @@
 #toast-container {
   right: 5px !important;
   left: auto !important;
+  bottom: 5px !important;
+  top: auto !important;
 }
 
 
