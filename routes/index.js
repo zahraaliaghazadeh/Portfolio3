@@ -8,8 +8,7 @@ router.get("/contact", function (req, res) {
 });
 
 router.post("/send", function (req, res) {
-    res.json("done")
-    /* var transporter = nodemailer.createTransport({
+    var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
             user: process.env.EMAIL_FROM,
@@ -37,7 +36,7 @@ router.post("/send", function (req, res) {
             console.log('Email sent: ' + info.response);
             res.json('Email sent: ' + info.response);
         }
-    }); */
+    });
 });
 
 // Basic route that sends the user first to the AJAX Page
