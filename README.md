@@ -1,4 +1,4 @@
-# [Portfolio](https://zahraaliaghazadeh.github.io/Portfolio3/)
+# [Portfolio](https://zahraaliaghazadeh.herokuapp.com/)
 > This portfolio application is a simple portfolio , with about, skills and some projects.
 
 ## Table of contents
@@ -29,7 +29,7 @@ This application has used features such as parallax effect, grid system, shadow 
 
 
 ## Setup
-To view this portfolio you can click : [here](https://zahraaliaghazadeh.github.io/Portfolio3/)
+To view this portfolio you can click : [here](https://zahraaliaghazadeh.herokuapp.com/)
 
 
 
