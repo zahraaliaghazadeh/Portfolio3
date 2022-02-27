@@ -40,8 +40,6 @@ To view this portfolio you can click : [here](https://zahraaliaghazadeh.herokuap
 
 
 To-do list:
-* The contact me page is not functional yet.
-* This app is still having change of screen-size problems in the "About Me" section.
 * improvement to be done 1: Improoving the design such as finding better color palletes or improving the alignment of photos and texts.
 * improvement to be done 2: The icon is not sitting in the navbar good enough.
 * improvement to be done 3: Hamburger navbar feature.
