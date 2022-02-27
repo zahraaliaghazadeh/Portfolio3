@@ -33,7 +33,7 @@
       <li><a target="_blank" class="linkedinlink fab fa-linkedin" href="https://www.linkedin.com/in/zahraaliaghazadeh/">
           LinkedIn</a></li>
       <li><a target="_blank" class="far fa-sticky-note"
-          href="https://docs.google.com/document/d/1cgDTwicvcztvAVgVlX6yvi9T6YbSKnNCwKftGa5veZY/edit?usp=sharing">
+          href="https://drive.google.com/drive/folders/1r_1rB_WvCWcpFP-rqPU966dGoI_c3vbr?usp=sharing">
           Resume</a></li>
       <li><a class="" href="/contact">
           Contact</a></li>
@@ -93,6 +93,7 @@
   </div>
   <!-- End Parallax  -->
 
+
   <footer class="page-footer">
     <div class="row socialmedia">
       <a target="_blank" class="footertext fab fa-github" style="color:#80cbc4"
@@ -100,9 +101,9 @@
       <a target="_blank" class="footertext fab fa-linkedin" style="color:#80cbc4"
         href="https://www.linkedin.com/in/zahraaliaghazadeh/"></a>
       <a target="_blank" class="footertext fab fa-facebook" style="color:#80cbc4"
-        href="https://www.facebook.com/yalda.aghazade"></a>
+        href="https://www.facebook.com/yalda.aghazade/"></a>
       <a target="_blank" class="footertext fab fa-instagram" style="color:#80cbc4"
-        href="https://www.instagram.com/yalda_pnw/?hl=en"></a>
+        href="https://www.instagram.com/yalda_seattle/?hl=en"></a>
       <a target="_blank" class="footertext fab fa-twitter" style="color:#80cbc4"
         href="https://twitter.com/yaldaaghazade"></a>
     </div>
@@ -130,7 +131,7 @@
 
       $("#contactForm").submit(async event => {
         event.preventDefault();
-        
+
         try {
           const body = {
             name: $(":input[name=name]").val().trim(),
@@ -147,11 +148,11 @@
           console.log(response)
           $("#contactForm")[0].reset();
 
-          M.toast({html: "Message sent!"})
+          M.toast({ html: "Message sent!" })
         } catch (error) {
           console.log(error)
         }
-          
+
       })
 
 

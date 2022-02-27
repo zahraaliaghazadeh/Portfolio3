@@ -57,7 +57,7 @@ A start to having an outstanding portfolio has been the inspiration.
 ## Contact
 Email: zahraaliaghazadeh@gmail.com
 
-LinkedIn: [LinkedIn](https://www.linkedin.com/in/yalda-aghazade-7a9b0390)
+LinkedIn: [LinkedIn](https://www.linkedin.com/in/zahraaliaghazadeh/)
 
 feel free to contact me!
 
